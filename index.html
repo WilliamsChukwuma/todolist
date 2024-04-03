@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/list.png" type="image/x-icon">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <section class="todo-app">
+            <h2>To-Do List <img src="images/tdl.png" alt="logo"></h2>
+            <div class="task-form">
+                <input type="text" id="input-box" placeholder="Add your task" autocomplete="on">
+                <button onclick="addTodo()">Add</button>
+            </div>
+
+            <ul id="list-container">
+
+            </ul>
+
+        </section>
+    </main>
+
+    <script src="javascript/addtask.js"></script>
+
+</body>
+
+</html>
